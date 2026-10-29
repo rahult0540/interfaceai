@@ -8,6 +8,18 @@ Interface AI is an early-stage initiative building domain-independent data migra
 
 The public-facing website is in [index.html](index.html). It is a standalone, responsive HTML page with inline styling, JavaScript and an inline SVG logo. Open it locally in a browser to preview.
 
+## Team quick start
+
+```sh
+git clone https://github.com/rahult0540/interfaceai.git
+cd interfaceai
+git switch -c feature/short-description
+```
+
+Open `index.html` in your browser; no dependencies or build step are required. This repository currently contains the website and product documentation. The FastAPI proof of concept described below is not included here.
+
+Before making your first change, follow [CONTRIBUTING.md](CONTRIBUTING.md). Repository owners should also read [docs/TEAM_SETUP.md](docs/TEAM_SETUP.md) for branch protection and access guidance.
+
 ## Our initial products
 
 | Product | Focus | Status |
