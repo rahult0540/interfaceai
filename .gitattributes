@@ -1,0 +1,11 @@
+# Normalize text in Git and use LF in working copies across platforms.
+* text=auto
+*.html text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
